@@ -18,7 +18,9 @@ My name is Tanya, right now I'm 20 years old and I'm 3rd year student at Gomel S
 
 I also have some experince working with django framework and Vue.
 
-
+#### Skills
+* [HTML course](https://www.sololearn.com/Certificate/1014-15448056/jpg/)
+* [CSS course](https://www.sololearn.com/Certificate/1023-15448056/jpg/)
 
 **Code examples**
 ```
