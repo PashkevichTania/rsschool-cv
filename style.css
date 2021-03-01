@@ -1,0 +1,21 @@
+header{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+h1{
+    color: #000000;
+}
+#about{
+    background-color: aquamarine;
+}
+img{
+    max-width: 70%;
+    height: auto;
+}
+code {
+    font-family: Consolas,"courier new";
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+}
