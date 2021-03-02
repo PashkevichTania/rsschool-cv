@@ -1,10 +1,14 @@
+body {
+    height: 100%;
+}
 header{
     padding-top: 40px;
-    padding-bottom: 20px;
-    text-align: center;
+    padding-bottom: 40px;
+    text-align: left;
 }
 h1{
     color: #000000;
+    padding-left: 20px;
 }
 #about{
     background-color: aquamarine;
@@ -13,9 +17,34 @@ img{
     max-width: 70%;
     height: auto;
 }
+img#icon{
+    max-width: 20%;
+    height: auto;
+}
 code {
     font-family: Consolas,"courier new";
     background-color: #f1f1f1;
     padding: 2px;
     font-size: 105%;
 }
+.link{
+    color: white;
+    text-decoration: none;
+}
+#rs{
+    padding-top: 10px;
+    max-width: 30%;
+    height: auto;
+}
+#footer1{
+    margin-bottom: 150px;
+}
+#footer2{
+    background-color: #6eaaae;
+    color: white;
+    text-align: right;
+    width: 100%;
+    height: 100px;
+}
+
+
