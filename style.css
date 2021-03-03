@@ -26,6 +26,9 @@ h1{
     color: #000000;
     padding-left: 20px;
 }
+h2{
+    padding-left: 15%;
+}
 img#icon{
     border-radius: 10%;
     max-width: 20%;
