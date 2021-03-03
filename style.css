@@ -48,6 +48,9 @@ section{
     color: white;
     text-decoration: none;
 }
+.link:hover{
+    color: #0909a5;
+}
 #rs{
     padding-top: 10px;
     max-width: 30%;
