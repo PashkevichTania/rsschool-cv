@@ -4,94 +4,76 @@
     <meta charset="UTF-8">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 <body>
-<main class="main">
+<div class="wrapper">
     <header>
-    <div class="container">
-        <div class="row">
-            <div class="col d-flex align-items-end">
-                <img src="src/j3WySVE5BjY.jpg" alt="icon" id="icon" class="rounded float-start">
-                <h1>Tatsiana Pashkevich</h1>
-            </div>
-        </div>
-    </div>
+        <img src="src/j3WySVE5BjY.jpg" alt="icon" id="icon">
+        <h1>Tatsiana Pashkevich</h1>
     </header>
-    <article>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="About">
-                        <h3>Contact information:</h3>
-                        <ul>
-                            <li><a href="https://pashkevichtania2004@gmail.com">Email</a></li>
-                            <li><a href="https://github.com/PashkevichTania">GitHub</a></li>
-                        </ul>
-                        <h3>My strengths are:</h3>
-                        <ul>
-                            <li>Dedication, I am always eager to improve my skills and learn something new.</li>
-                            <li>Teamwork, I good at collaborating and listening to others.</li>
-                        </ul>
-                        <h4>I have experience in</h4>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Java Script</li>
-                            <li>Python</li>
-                            <li>C</li>
-                            <li>Java</li>
-                        </ul>
-                        <p>I also have some experience working with django framework and Vue.</p>
-                    </div>
+    <main class="main">
+        <article class="article">
+            <section>
+                <h3>Contact information:</h3>
+                <ul>
+                    <li><a href="https://pashkevichtania2004@gmail.com">Email</a></li>
+                    <li><a href="https://github.com/PashkevichTania">GitHub</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3>My strengths are:</h3>
+                <ul>
+                    <li>Dedication, I am always eager to improve my skills and learn something new.</li>
+                    <li>Teamwork, I good at collaborating and listening to others.</li>
+                </ul>
+            </section>
+            <section>
+                <h4>I have experience in</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>Java</li>
+                </ul>
+                <p>I also have some experience working with django framework and Vue.</p>
+            </section>
+            <section>
+                <p><strong>Code examples</strong></p>
+                <div class="code">
+                    <pre><code>let str = prompt('Введите строку');
+    str = str.replace(/\s/g, '');
+    var revStr = str.split('').reverse().join('');
+    if (revStr == str) {
+        alert("Строка палиндром");
+    } else {
+        alert("Строка не палиндром");
+    }</code></pre>
                 </div>
-                <div class="col">
-                    <p><strong>Code examples</strong></p>
-                    <pre><code>var <span>str</span> = prompt(<span>'Введите строку'</span>);
-        <span>str</span> = <span>str</span>.replace(/\s/g, <span>''</span>);
-        var revStr = <span>str</span>.<span>split</span>(<span>''</span>).<span>reverse</span>().<span>join</span>(<span>''</span>);
-        <span>if</span> (revStr == <span>str</span>) {
-            alert(<span>"Строка палиндром"</span>);
-        } <span>else</span> {
-            alert(<span>"Строка не палиндром"</span>);
-        }
-            </code></pre>
-                    <h5>My current English level is B2, but I'm constantly trying to improve it.</h5>
-                </div>
-            </div>
-            <div class="row">
-                <footer id="footer1">
-                    <h4 id="skills">Skills</h4>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <img src="https://www.sololearn.com/Certificate/1014-15448056/jpg/" class="rounded float-start" alt="HTML course">
-                            </div>
-                            <div class="col">
-                                <img src="https://www.sololearn.com/Certificate/1023-15448056/jpg/" class="rounded float-start" alt="CSS course">
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            </div>
-        </div>
-    </article>
-</main>
-<footer id="footer2" class="fixed-bottom">
-    <div class="container" >
-        <div class="row">
-            <div class="col">
-                <img src="https://rs.school/images/rs_school_js.svg" class="float-start" id="rs" alt="rss">
-            </div>
-            <div class="col">
-                <a href="https://rs.school/js/" class="link">rs school</a><br>
-                <a href="https://github.com/PashkevichTania" class="link">GitHub</a>
-                <p>2021</p>
-            </div>
-        </div>
-    </div>
-</footer>
+            </section>
+            <section>
+                <h5>My current English level is B2, but I'm constantly trying to improve it.</h5>
+            </section>
+            <section>
+                <h4 id="skills">Skills</h4>
+                <ul>
+                    <li>
+                        <a href="https://www.sololearn.com/Certificate/1014-15448056/jpg/">HTML course</a>
+                    </li>
+                    <li>
+                        <a href="https://www.sololearn.com/Certificate/1023-15448056/jpg/">CSS course</a>
+                    </li>
+                </ul>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <img src="https://rs.school/images/rs_school_js.svg" id="rs" alt="rss">
+        <a href="https://rs.school/js/" class="link">rs school</a><br>
+        <a href="https://github.com/PashkevichTania" class="link">GitHub</a>
+        <p>2021</p>
+    </footer>
+</div>
 </body>
 </html>
