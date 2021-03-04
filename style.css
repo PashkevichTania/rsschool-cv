@@ -44,6 +44,13 @@ section{
     padding: 2px;
     font-size: 105%;
 }
+a{
+    color: #434343;
+    font-family: Franklin Gothic Medium;
+}
+a:visited{
+    color: blue;
+}
 .link{
     color: white;
     text-decoration: none;
