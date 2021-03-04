@@ -18,10 +18,6 @@ My name is Tanya, right now I'm 20 years old and I'm 3rd year student at Gomel S
 
 I also have some experince working with django framework and Vue.
 
-#### Skills
-* [HTML course](https://www.sololearn.com/Certificate/1014-15448056/jpg/)
-* [CSS course](https://www.sololearn.com/Certificate/1023-15448056/jpg/)
-
 **Code examples**
 ```
 var str = prompt('Введите строку');
@@ -33,4 +29,10 @@ var str = prompt('Введите строку');
             alert("Строка не палиндром");
         }
 ```
-#### My current English level is B2, but I'm constantly trying to improve it.
+#### My current English level is C1-C2, and I'm constantly trying to improve it.
+I can easily read books and understand english speech.
+
+#### Skills
+* [HTML course](https://www.sololearn.com/Certificate/1014-15448056/jpg/)
+* [CSS course](https://www.sololearn.com/Certificate/1023-15448056/jpg/)
+* [English EF SET test](https://www.efset.org/cert/Fyfv6R)
