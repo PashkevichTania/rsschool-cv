@@ -55,6 +55,12 @@ a{
 a:visited{
     color: blue;
 }
+a[href^="mailto"]::after {
+    content: '\1F4E9'; /* Иконка */
+    padding-left: 5px; /* Расстояние от иконки до текста */
+    vertical-align: text-bottom; /* Выравнивание по вертикали */
+    font-size: 0.8em; /* Размер иконки */
+}
 .link{
     color: white;
     text-decoration: none;
