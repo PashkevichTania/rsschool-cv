@@ -1,6 +1,7 @@
 # Pashkevich Tatsiana
 
-### pashkevichtania2004@gmail.com
+### Contact information:
+* [pashkevichtania2004@gmail.com](https://pashkevichtania2004@gmail.com)
 * [LinkedIn](https://www.linkedin.com/in/tatsiana-pashkevich-64b760208/)
 * [VK](https://vk.com/id222248841)
 
